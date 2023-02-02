@@ -13,6 +13,7 @@ body {
     min-width: 40rem;
     font-size: 1.6rem;
     font-family: sans-serif;
+    background-color: #EEEEEE;
 }
 header{
     display: flex;
@@ -64,6 +65,59 @@ header {
 .col_2 {
 
     width: 30%;
+
+    min-height: 5rem;
+    background-color: aquamarine;
+}
+
+
+/* ----------------------content_box------------------ */
+main {
+    background-color: #EEEEEE;
+    padding: 3rem;
+}
+
+.item_content_box {
+    padding: 3rem 2rem;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 4rem;
+}
+
+.item_content_box p {
+    color: #c3c3c3;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+.btn_plus {
+    position: absolute;
+    bottom: -1rem;
+    right: 2rem;
+    background-color: #F9B526;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0.4rem;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.p_size {
+    color: rgb(164, 163, 163) !important;
+}
+
+
+/* -------------------footer----------------- */
+footer {
+    background-color: #000;
+    padding: 1rem 0;
+    color: #aaaaaa;
+    text-align: center;
+    font-size: 1.2rem;
+
     height: 15rem;
     /* min-height: 15rem; */
     /* background-color: aquamarine; */
@@ -87,4 +141,5 @@ header {
 .col_2 h5 {
     font-size: 1.rem;
     color: #b0a098;
+
 }
