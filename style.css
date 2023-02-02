@@ -15,22 +15,37 @@ body {
     font-family: sans-serif;
     background-color: #EEEEEE;
 }
-
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
 .p_container {
     padding: 0 6rem;
+    display: flex;
+}
+.left-header{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.right-header{
+    display: flex;
+    align-content: center;
+    justify-content: right;
+    gap: 2rem;
 }
 
 header {
     width: 100%;
     min-height: 5rem;
     height: max-content;
-    background-color: blue;
 }
 
 .img_bg {
     width: 100%;
     height: 30rem;
-    background-color: red;
+    background-image:  linear-gradient(red, yellow);;
     margin: 0 0 2rem 0;
 }
 
@@ -48,7 +63,9 @@ header {
 }
 
 .col_2 {
+
     width: 30%;
+
     min-height: 5rem;
     background-color: aquamarine;
 }
@@ -100,4 +117,29 @@ footer {
     color: #aaaaaa;
     text-align: center;
     font-size: 1.2rem;
+
+    height: 15rem;
+    /* min-height: 15rem; */
+    /* background-color: aquamarine; */
+    height: fit-content;
+
+}
+
+.col_2 li {
+    list-style: none;
+    background-color: #efeeec;
+    margin: 1.5rem 0;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+}
+
+.col_2 li:hover {
+    background-color: #d7d7d7;
+}
+
+.col_2 h5 {
+    font-size: 1.rem;
+    color: #b0a098;
+
 }
