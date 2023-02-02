@@ -47,7 +47,29 @@ header {
 }
 
 .col_2 {
+
     width: 30%;
-    min-height: 5rem;
-    background-color: aquamarine;
+    height: 15rem;
+    /* min-height: 15rem; */
+    /* background-color: aquamarine; */
+    height: fit-content;
+
+}
+
+.col_2 li {
+    list-style: none;
+    background-color: #efeeec;
+    margin: 1.5rem 0;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+}
+
+.col_2 li:hover {
+    background-color: #d7d7d7;
+}
+
+.col_2 h5 {
+    font-size: 1.rem;
+    color: #b0a098;
 }
